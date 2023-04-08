@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TitleComponent from "./TitleComponent";
+// import './TitleComponent'
+// import ColorRandomizer from './ColorRandomizer/ColorRandomizer'
+import LikeMyPhoto from "./like my photo/LikeMyPhoto";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <TitleComponent text="Random Color"/> */}
+      {/* <ColorRandomizer /> */}
+      <TitleComponent text="Like My photo" />
+      <LikeMyPhoto />
     </div>
   );
 }
