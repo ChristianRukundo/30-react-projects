@@ -1,38 +1,42 @@
-.App {
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+ /* ===========================================================Title=================================================================== */
+
+.title h1{
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ===========================================================Title=================================================================== */ 
+/* ===========================================================Project 1=================================================================== */
+.btn{
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 1rem;
+  border: none;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn:hover{
+  border: 1px solid #333;
+  cursor: pointer;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn.danger{
+  background-color: rgb(255, 54, 54);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.btn.success{
+  background-color: rgb(15, 159, 61);
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn.warning{
+  background-color: orange;
+  color: white;
 }
+.btn.primary{
+  background-color: magenta;
+  color: white;
+}
+/* ===========================================================Project 1=================================================================== */
